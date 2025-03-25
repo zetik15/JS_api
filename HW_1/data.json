@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Йога",
+      "time": "10:00 - 11:30",
+      "day": "Понедельник",
+      "maxParticipants": 15,
+      "currentParticipants": 8
+    },
+    {
+      "id": 2,
+      "name": "Пилатес",
+      "time": "12:00 - 13:30",
+      "day": "Понедельник",
+      "maxParticipants": 12,
+      "currentParticipants": 10
+    },
+    {
+      "id": 3,
+      "name": "Кроссфит",
+      "time": "18:00 - 19:30",
+      "day": "Понедельник",
+      "maxParticipants": 20,
+      "currentParticipants": 15
+    },
+    {
+      "id": 4,
+      "name": "Зумба",
+      "time": "10:00 - 11:30",
+      "day": "Вторник",
+      "maxParticipants": 25,
+      "currentParticipants": 18
+    },
+    {
+      "id": 5,
+      "name": "Бокс",
+      "time": "18:00 - 19:30",
+      "day": "Вторник",
+      "maxParticipants": 15,
+      "currentParticipants": 15
+    },
+    {
+      "id": 6,
+      "name": "Стретчинг",
+      "time": "19:30 - 21:00",
+      "day": "Вторник",
+      "maxParticipants": 20,
+      "currentParticipants": 12
+    },
+    {
+      "id": 7,
+      "name": "Силовая тренировка",
+      "time": "10:00 - 11:30",
+      "day": "Среда",
+      "maxParticipants": 15,
+      "currentParticipants": 7
+    },
+    {
+      "id": 8,
+      "name": "Йога",
+      "time": "18:00 - 19:30",
+      "day": "Среда",
+      "maxParticipants": 15,
+      "currentParticipants": 14
+    },
+    {
+      "id": 9,
+      "name": "Танцы",
+      "time": "19:30 - 21:00",
+      "day": "Среда",
+      "maxParticipants": 20,
+      "currentParticipants": 16
+    },
+    {
+      "id": 10,
+      "name": "Кроссфит",
+      "time": "18:00 - 19:30",
+      "day": "Четверг",
+      "maxParticipants": 20,
+      "currentParticipants": 12
+    },
+    {
+      "id": 11,
+      "name": "Пилатес",
+      "time": "10:00 - 11:30",
+      "day": "Пятница",
+      "maxParticipants": 12,
+      "currentParticipants": 9
+    },
+    {
+      "id": 12,
+      "name": "Йога",
+      "time": "18:00 - 19:30",
+      "day": "Пятница",
+      "maxParticipants": 15,
+      "currentParticipants": 10
+    }
+]
