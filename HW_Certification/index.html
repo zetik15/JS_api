@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unsplash Image Slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Unsplash Image Slider</h1>
+            <a href="favorites.html" class="favorites-link">Мои избранные фотографии</a>
+        </div>
+        
+        <div class="slider-container">
+            <button class="nav-btn prev-btn">
+                <span class="arrow">&#10094;</span>
+            </button>
+            
+            <div class="image-container">
+                <img id="unsplash-image" src="" alt="Random Unsplash Image">
+                <div class="image-info">
+                    <h3 id="photographer-name"></h3>
+                    <div class="like-section">
+                        <button id="like-button">❤</button>
+                        <span id="likes-count">0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="nav-btn next-btn">
+                <span class="arrow">&#10095;</span>
+            </button>
+        </div>
+    </div>
+    
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

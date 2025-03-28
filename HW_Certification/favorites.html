@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="favorites.css">
+    <title>Избранные фотографии Unsplash</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Мои избранные фотографии</h1>
+            <a href="index.html" class="back-btn">← Вернуться к слайдеру</a>
+        </header>
+        
+        <div class="favorites-container" id="favorites-container">
+            <!-- Здесь будут отображаться избранные фотографии -->
+            <div class="empty-message" id="empty-message">
+                <p>У вас пока нет избранных фотографий</p>
+                <a href="index.html" class="action-btn">Перейти к слайдеру</a>
+            </div>
+        </div>
+        
+        <template id="favorite-template">
+            <div class="favorite-item">
+                <div class="image-wrapper">
+                    <img class="favorite-image" src="" alt="Избранное фото">
+                    <button class="remove-btn">✕</button>
+                </div>
+                <div class="favorite-info">
+                    <h3 class="photographer-name"></h3>
+                    <div class="favorite-actions">
+                        <a class="view-original" href="" target="_blank">Открыть оригинал</a>
+                        <span class="like-date"></span>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </div>
+    
+    <script src="favorites.js"></script>
+</body>
+</html>
